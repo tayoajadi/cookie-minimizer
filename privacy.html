@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy statement for the Cookie Minimizer browser extension.">
+  <title>Cookie Minimizer | Privacy Statement</title>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f7f9fc; color: #182333; font: 16px/1.7 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 760px; margin: 48px auto; padding: 40px; background: #fff; border: 1px solid #e2e8f0; border-radius: 16px; }
+    h1 { margin: 0 0 24px; font-size: clamp(1.55rem, 4vw, 2.2rem); line-height: 1.2; }
+    p { margin: 0 0 18px; }
+    p:last-child { margin-bottom: 0; }
+    code { background: #f1f5f9; padding: .1em .3em; border-radius: 4px; font-size: .9em; }
+    @media (max-width: 800px) { main { margin: 0; min-height: 100vh; padding: 28px 20px; border: 0; border-radius: 0; } }
+  </style>
+</head>
+<body>
+  <main>
+      <h1>Cookie Minimizer privacy statement (draft, review before release)</h1>
+      <p>Cookie Minimizer reads website content in the browser solely to identify cookie consent dialogs and interact with consent controls. It does not send a user&#x27;s browsing history, cookies, consent decisions, or page contents to any server. It makes <strong>no extension-initiated network requests</strong>.</p>
+      <p>The extension saves only these preferences in the browser&#x27;s <code>storage.local</code>: whether automation is enabled, whether to automatically save safe category choices, and a list of excluded domains. These choices remain on that device/browser profile. Firefox Android does not automatically sync this extension&#x27;s settings to other devices.</p>
+      <p>The extension does not read cookie values using the Cookies API, and does not remove cookies that sites have already set. Consent detection can fail on some sites, especially cross-origin, closed-shadow-DOM, or custom-script interfaces. It does not prevent all tracking.</p>
+      <p>This statement covers the supplied source code, not any modifications a future publisher makes. An app distributor should supply their actual contact details and review Apple/Mozilla/Google privacy disclosures before release.</p>
+  </main>
+</body>
+</html>
